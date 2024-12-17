@@ -32,7 +32,12 @@ You can view or test the APIs using the link below:
       DATABASE_URL=
     ```
 
-4. **Test the API:** Use Postman or curl to verify the endpoints:
+4. **Run the application:**
+    ```bash
+      go run cmd/main.go
+    ```
+
+1. **Test the API:** Use Postman or curl to verify the endpoints:
     ```bash
       curl -X POST "http://localhost:8080/breed-inquiry" -H "Content-Type: application/json" -d '{"keyword": "example"}'
     ```
