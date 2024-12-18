@@ -28,8 +28,8 @@ You can view or test the APIs using the link below:
   
 3. **Set up environment variables:**
     ```env
-      PORT=
-      DATABASE_URL=
+      PORT=8080
+      DATABASE_URL=postgresql://{your_db_user}:{yor_db_password}@{your_db_host}:{your_db_port}/{your_db_name}
     ```
 4. **Run the migrations:**
     - The migrations are located in the `migrations/` folder:
